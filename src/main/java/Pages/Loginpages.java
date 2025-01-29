@@ -20,6 +20,7 @@ public class Loginpages {
         WebElement SignInBtn = driver.findElement(signIn);
         SignInBtn.click();
     }
+
     public void clickOnsigupButton(){
         WebElement signupButton = driver.findElement(Signup);
         signupButton.click();
